@@ -1,0 +1,347 @@
+<HTML>
+<HEAD>
+  <TITLE>employment.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Sijo John, Concept Map, cmap, CmapTools, IHMC, employment,  Administrative Setting,  White Collar Jobs,  Salesmen,  Accountants,  Technicians,  Engineers,  Sensors,  Blue Collar Jobs,  Employment,  Oil Industry,  Why are jobs left behind?,  Robots,  Programmers,  Architect,  Manufacturing Industry,  Coal Industry,  Outdoor Setting,  Manual Labor,  Technical Jobs,  Sijo John Robotics 2/22/17">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: employment, Employment Consists of Technical Jobs, Manual Labor Can take place in Outdoor Setting, Programmers Encourage Technology, Outdoor Setting Include Oil Industry, Blue Collar Jobs Require Manual Labor, Blue Collar Jobs Discourage technology, Administrative Setting Employment include Accountants, Programmers Can also be employed in Coal Industry, Programmers Design and build Sensors, Manufacturing Industry Use Robots, Employment Consists of Blue Collar Jobs, Architect May also take place in Outdoor Setting, Employment Consists of White Collar Jobs, Blue Collar Jobs Gradually being replaced by Technical Jobs, Administrative Setting Employment include Salesmen, White Collar Jobs Do not require Manual Labor, White Collar Jobs Do not require Technicians, Technical Jobs such as Engineers, Administrative Setting Employment include Architect, White Collar Jobs Take place in Administrative Setting">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: employment, Employment Consists of Technical Jobs, Manual Labor Can take place in Outdoor Setting, Programmers Encourage Technology, Outdoor Setting Include Oil Industry, Blue Collar Jobs Require Manual Labor, Blue Collar Jobs Discourage technology, Administrative Setting Employment include Accountants, Programmers Can also be employed in Coal Industry, Programmers Design and build Sensors, Manufacturing Industry Use Robots, Employment Consists of Blue Collar Jobs, Architect May also take place in Outdoor Setting, Employment Consists of White Collar Jobs, Blue Collar Jobs Gradually being replaced by Technical Jobs, Administrative Setting Employment include Salesmen, White Collar Jobs Do not require Manual Labor, White Collar Jobs Do not require Technicians, Technical Jobs such as Engineers, Administrative Setting Employment include Architect, White Collar Jobs Take place in Administrative Setting
+
+</noscript>
+
+<map name="employment.html">
+  <area shape="rect"
+        href="1R2KC95N6I2D7NSFQI2G1ItextIhtml"
+        onClick="popUpEvt(event,'1R2KC95N6I2D7NSFQI2G1ItextIhtml'); return false;"
+        coords="2232,1232,2250,1250">
+  <area shape="rect"
+        href="1R2KDL723I219XP7VI2TGItextIhtml"
+        onClick="popUpEvt(event,'1R2KDL723I219XP7VI2TGItextIhtml'); return false;"
+        coords="1502,260,1520,278">
+  <area shape="rect"
+        href="1R2GD6Z0RIXC4371I15LItextIhtml"
+        onClick="popUpEvt(event,'1R2GD6Z0RIXC4371I15LItextIhtml'); return false;"
+        coords="1815,976,1833,994">
+  <area shape="rect"
+        href="1R2K5Y0QSI20YBHRMIW5ItextIhtml"
+        onClick="popUpEvt(event,'1R2K5Y0QSI20YBHRMIW5ItextIhtml'); return false;"
+        coords="1830,1153,1848,1171">
+  <area shape="rect"
+        href="1R2K5R5J9I2B724NJISMItextIhtml"
+        onClick="popUpEvt(event,'1R2K5R5J9I2B724NJISMItextIhtml'); return false;"
+        coords="1816,1023,1834,1041">
+  <area shape="rect"
+        href="1R2KB5CX3I28RYP5RI1XPItextIhtml"
+        onClick="popUpEvt(event,'1R2KB5CX3I28RYP5RI1XPItextIhtml'); return false;"
+        coords="1169,1293,1187,1311">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#employment.html"
+             SRC="employment.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1R2KC95N6I2D7NSFQI2G1ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.youtube.com/watch?v=BW7OembROC8 "TITLE="">
+      Robots Taking Over Industrial Line
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2KDL723I219XP7VI2TGItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.wired.com/2017/02/programming-is-the-new-blue-collar-job/ "TITLE="">
+      Wired
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2GD6Z0RIXC4371I15LItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.oilvoice.com/Press/2447/Oil-and-Gas-Data-Management-Market-growing-at-a-significant-pace-following-increasing-research-and-development-in-data-management "TITLE="">
+      Oil Voice
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2K5Y0QSI20YBHRMIW5ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="http://www.usatoday.com/story/money/2017/02/06/special-report-automation-puts-jobs-peril/96464788/ "TITLE="">
+      USA Today
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2K5R5J9I2B724NJISMItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://www.thestreet.com/story/13974666/1/manufacturing-jobs-will-continue-to-decline-and-there-s-no-quick-solution.html "TITLE="">
+      The Street
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1R2KB5CX3I28RYP5RI1XPItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://techcrunch.com/2013/07/29/why-labor-unions-and-silicon-valley-arent-friends-in-2-charts/ "TITLE="">
+      Tech Crunch
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
